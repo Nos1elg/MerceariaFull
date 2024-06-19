@@ -1,0 +1,103 @@
+ion-content{
+    --background: white;
+}
+
+ion-icon{
+    color: #828B93;
+    margin: 7%;
+}
+
+ion-col.ft{
+    padding-top: 5%;
+}
+
+
+img.frutas{
+    border-radius: 50px;  
+    background: #c5d7b1;
+    position: sticky;
+}
+
+img.diversos{
+    border-radius: 50px;  
+    background: #92b6fa;
+}
+
+img.acougue{
+    border-radius: 50px;  
+    background: #f0bdb2;
+}
+
+h1{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+h3{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+p{
+    color: #828B93;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+p.fe{
+    text-align: right;
+    margin-top: 20%;
+}
+
+p.itens{
+    color: black;
+}
+
+ion-button{
+    width: 190px;
+    height: 40px;
+    --border-radius: 50px;
+    --color: white;
+    --background:#7785db;
+    --border-color: white;
+    --border-widht: 0.2px;
+    margin-left: 50%;
+    font-size: 14px;
+    margin-top: -50px;
+}
+
+ion-card{
+    --background: #7785db;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 15px;
+    margin-top: 40%;
+    padding-bottom: 5%;
+}
+
+h1.botao{
+    font-size: 16px;
+    color:white;
+    margin-bottom: -10px;
+    margin-left: 15px;
+}
+
+h2.botao{
+    color: white;
+    margin-left: 15px;
+}
+
+ion-icon.pa{
+    color: white;
+}

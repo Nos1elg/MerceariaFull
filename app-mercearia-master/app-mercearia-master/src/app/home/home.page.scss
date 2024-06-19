@@ -1,0 +1,38 @@
+ion-content{
+  --background: white;
+}
+
+img.home{
+  margin: auto;
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+h1{
+  color: #050609;
+  font-size: clamp(1.75em, 1.2em + 3vw, 3em);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+p{
+  color: #828B93;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.75em, 1em + 1vw, 3em);
+  text-align: center;
+  height: 80px;
+}
+
+ion-button{
+  --background: #7785DB;
+  --color: white;
+  --border-radius: 60px;
+  font-size: 16px;
+  width: 60%;
+  height: 200%;
+}

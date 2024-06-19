@@ -1,0 +1,57 @@
+<ion-content [fullscreen]="true">
+  <ion-icon name="chevron-back-outline" ></ion-icon>
+
+  <h1><strong>Meu carrinho</strong></h1>
+
+<ion-grid>
+  <ion-row>
+    <ion-col class="frutas" size="auto" offset="0.5" offset-md="4" offset-lg="2">
+      <img  class="frutas" src="../../assets/frutas.png" alt="">
+    </ion-col>
+
+    <ion-col class="ft" size="auto">
+      <h2>Frutas</h2>
+      <p class="itens"><strong>$ 50,00</strong></p>
+    </ion-col>
+
+    <ion-col size-md size="6">
+      <p class="fe">Editar</p>
+    </ion-col>
+
+    <ion-col size="auto" offset="0.5" offset-md="4" offset-lg="2">
+      <img class="diversos" src="../../assets/diversos.png" alt="">
+    </ion-col>
+
+    <ion-col class="ft" size="auto">
+      <h2>Diversos</h2>
+      <p class="itens"><strong>$ 35,40</strong></p>
+    </ion-col>
+
+    <ion-col size-md size="6">
+      <p class="fe">Editar</p>
+    </ion-col>
+
+    <ion-col size="auto" offset="0.5" offset-md="4" offset-lg="2">
+      <img class="acougue" src="../../assets/acougue.png" alt="">
+    </ion-col>
+
+    <ion-col  class="ft" size="auto">
+      <h2>Açougue</h2>
+      <p class="itens"><strong>$ 56,44</strong></p>
+    </ion-col>
+
+    <ion-col size-md size="6">
+      <p class="fe"><ion-icon slot="start" name=""></ion-icon>Editar</p>
+    </ion-col>
+    
+  </ion-row>
+</ion-grid>
+
+<ion-card>
+  <ion-card-header>
+    <h1 class="botao">Total a pagar</h1>
+    <h2 class="botao"><strong>$ 141,84</strong></h2>
+    <ion-button fill="outline"><ion-icon class="pa" slot="end" name="chevron-forward-outline"></ion-icon>Pagar agora</ion-button>
+  </ion-card-header>
+</ion-card>
+</ion-content>

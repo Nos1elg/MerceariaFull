@@ -1,0 +1,90 @@
+ion-content{
+    --background: white;
+}
+
+img.local{
+    margin-top: 15px;
+    object-fit:cover;
+}
+
+img.user{
+    object-fit:cover;
+    margin: 15px;
+}
+
+p.local{
+    margin-top: 25px;
+    color: #828B93;
+    font-size: 12px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    size: 16px;
+    color: #050609;
+}
+
+ion-col.frutas{
+    background-color: #c5d7b1;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+ion-col.diversos{
+    background-color: #92b6fa;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+ion-col.acougue{
+    background-color: #f0bdb2;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+ion-col.bebidas{
+    background-color: #60f8e9;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+img.frutas{
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+img.diversos{
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 120%;
+}
+
+img.acougue{
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+img.bebidas{
+    margin-left: 13px;
+}
+
+p.frutas{
+    margin-left: 90px;
+    margin-top: -55px;
+}
+
+p.diversos{
+    margin-left: 80px;
+    margin-top: -55px;
+}
+
+p.acougue{
+    margin-left: 90px;
+    margin-top: -55px;
+}
+
+p.bebidas{
+    margin-left: 80px;
+    margin-top: -40px;
+}

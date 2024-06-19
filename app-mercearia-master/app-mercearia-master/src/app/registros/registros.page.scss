@@ -1,0 +1,86 @@
+ion-content{
+    --background: white;
+}
+
+img.local{
+    margin-top: 15px;
+    object-fit:cover;
+}
+
+img.user{
+    object-fit:cover;
+    margin: 15px;
+}
+
+p.local{
+    margin-top: 25px;
+}
+
+p{
+    color: #828B93;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+p.bv{
+    margin: 15px;
+}
+
+h1{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 15px;
+}
+
+h3{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+ion-card-title{
+    font-size: 18px;
+    border-radius: 12px;
+    color: black;
+}
+
+ion-card.frutas{
+    --background: #c5d7b1;
+    border-radius: 16px;
+}
+
+ion-card.diversos{
+    --background: #92b6fa;
+    border-radius: 16px;
+}
+
+ion-card.acougue{
+    --background: #f0bdb2;
+    border-radius: 16px;
+}
+
+img.frutas{
+    border-radius: 50px;  
+    background: #c5d7b1;
+}
+
+img.diversos{
+    border-radius: 50px;  
+    background: #92b6fa;
+}
+
+img.acougue{
+    border-radius: 50px;  
+    background: #f0bdb2;
+}

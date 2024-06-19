@@ -1,0 +1,18 @@
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button (click)="navigateHome()">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="search">
+        <ion-icon name="search"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="registros">
+        <ion-icon name="document-text-outline"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="carrinho">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-tabs>
+
